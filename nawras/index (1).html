@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Nawras Index Startseite</title>
+        <meta charset="UTF-8" /> 
+        <!-- CSS im Head verlinken -->
+        <link rel="stylesheet" href="unser.css">
+    
+
+    </head>
+    <body>
+        <!-- Hauptüberschrift -->
+        <h1>Erste Überschrift</h1>
+        
+        <!-- Links -->
+        <a href="https://google.de">Google</a>
+        <a href="https://www.example.com">Link zu Beispielseite</a>
+        
+        <!-- Weitere Überschriften -->
+        <h2>Zwischenüberschrift</h2>
+        <h3>Weitere Zwischenüberschrift</h3>
+        <h4>nächste Überschriften</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+        <h5> Kontaktformular</h5>
+        
+ <!-- Formularstruktur fragen!!!-->
+    <form id="kontaktForm">
+        <!-- Vorname -->
+        <label for="vorname">Vorname:</label>
+        <input type="text" id="vorname" name="vorname" required>
+
+        <!-- Nachname -->
+        <label for="nachname">Nachname:</label>
+        <input type="text" id="nachname" name="nachname" required>
+
+        <!-- E-Mail-Adresse -->
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Telefonnummer -->
+        <label for="telefon">Telefonnummer:</label>
+        <input type="tel" id="telefon" name="telefon">
+
+        <!-- Adresse -->
+        <label for="adresse">Adresse:</label>
+        <textarea id="adresse" name="adresse"></textarea>
+
+        <!-- Datei hochladen -->
+        <label for="datei">Lebenslauf hochladen:</label>
+        <input type="file" id="datei" name="datei" accept=".pdf,.doc,.docx">
+
+        <!-- Zustimmung -->
+        <label for="zustimmung">
+            <input type="checkbox" id="zustimmung" name="zustimmung" required>
+            Ich stimme den Bedingungen zu
+        </label>
+
+        <!-- Absenden-Button -->
+        <button type="submit">Abschicken</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Inhalt -->
+        <p>Hier ist ein Inhalt.</p>
+        <h1>Zweite Überschrift</h1>
+        <p>Hier ist weiterer Inhalt. Und es geht weiter in einer neuen Zeile.</p>
+        
+        <!-- Absatz und Buttons -->
+        <p>Das ist ein Absatz</p>
+        <p>Das ist ein weiterer Absatz</p>
+        
+        <!-- Schaltflächen -->
+        <button type="button" onclick="esWurdeGeklickt('Montag')">Klicken Mo</button>
+        <button type="button" onclick="esWurdeGeklickt('Dienstag')">Klicken Di</button>
+        <button type="button"   onclick="es wurde getippt('Mittwoch')">Klicken Mi</button>
+        <button id="meinButton">Klicke mich!</button>
+        <!-- Ausgabeabsatz für JavaScript -->
+        <p id="demo"></p>
+        
+        <!-- Einbindung der JavaScript-Datei -->
+        <script src="unser.js"></script>
+        
+        <!-- Header-Bereich mit Logo -->
+        <header class="mitte">
+            <a href="/">
+                <img width="300" src="logo.jpg" alt="Logo Mettal Müller"/>
+            </a>
+
+            <label for="file">Downloading progress:</label>
+            <progress id="file" value="70" max="100"> 70% </progress>
+            
+
+        </header>
+        
+        <!-- Bildbereich -->
+        <div id="bild">
+            <img src="Bild.jpeg" alt="Beispielbild"/>
+        </div>
+
+
+
+
+         <!--Modal nachfragen -->
+        <div id="modal" style="display: none;">
+            <div class="modal-content">
+                <span onclick="closeModal()" style="float: right; cursor: pointer;">&times;</span>
+                <h2>Information</h2>
+                <p>Hier ist eine wichtige Nachricht.</p>
+            </div>
+        </div>
+        <button onclick="openModal()">Mehr Infos</button>
+        
+
+
+        
+        <!-- Navigation und Inhaltsabschnitte -->
+        <nav>Navigation</nav>
+        <section>Inhaltsbereich 1 kommt noch mehr </section>
+        <section>
+
+            <h3>über mich</h3>
+            <p id="info">Besondere Infos</p>
+            <button onclick="updateInfo()">Noch mehr erfahren</button>
+
+        </section>
+        <section>Inhaltsbereich 3</section>
+        <section>neuer Bereich 4</section>
+        <section>
+            <h2>Über mich</h2>
+            <p id="info">Hier ist eine kurze Beschreibung über mich.</p>
+            <button onclick="updateInfo()">Mehr erfahren</button>
+        </section>
+        
+        
+        <!-- Fußzeile -->
+        <footer>Footer-Bereich das ist der untere Bereich</footer>
+    </body>
+</html>
