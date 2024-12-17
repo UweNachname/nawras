@@ -1,0 +1,7 @@
+<ul id="menuItems">
+  @for (menuItem of menuItems; track menuItem.id) {
+    <li>
+      <app-menu-item [menuItem]="menuItem" />
+    </li>
+  }
+</ul>
