@@ -5,6 +5,9 @@ ul {
   display: flex;
   gap: 0.5rem;
   overflow: auto;
+  position: sticky;
+  top: 300px;
+  z-index: 50; 
 }
 
 @media (min-width: 768px) {
