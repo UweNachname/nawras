@@ -3,3 +3,12 @@ img {
     max-width: 50rem;
      
 }
+
+.fetter {
+    font-weight: bold;
+}
+
+.schmaler {
+    font-weight: 10;
+    color: grey;
+}
