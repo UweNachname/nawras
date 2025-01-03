@@ -12,3 +12,19 @@ img {
     font-weight: 10;
     color: grey;
 }
+.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    background-color: #9ab1f3;
+    color: #0b0311;
+    text-decoration: none;
+}
+
+
+a:hover,
+a:active,
+.selected {
+  background-color: #2b5de4;
+  color: #150722;
+}
