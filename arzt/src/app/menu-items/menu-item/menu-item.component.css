@@ -9,8 +9,8 @@ a {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
-  background-color: #433352;
-  color: #c3b3d1;
+  background-color: #9ab1f3;
+  color: #0b0311;
   border: none;
   font: inherit;
   cursor: pointer;
@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 .selected {
-  background-color: #9965dd;
+  background-color: #2b5de4;
   color: #150722;
 }
 
