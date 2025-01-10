@@ -36,13 +36,19 @@ export const MENU_ITEMS = [
     route: 'sprechzeiten'
   },
   {
-    id: 'u6',
+    id: 'u7',
     title: 'Impressum',
     foto: 'mi-6.jpg',    
     route: 'impressum'
   },
   {
-    id: 'u6',
+    id: 'u8',
+    title: 'Unser Team',
+    foto: 'mi-1.jpg',    
+    route: 'team'
+  },
+  {
+    id: 'u9',
     title: 'Datenschutzerklärung',
     foto: 'mi-6.jpg',    
     route: 'datenschutzerklaerung'

@@ -28,7 +28,7 @@ a:active,
 }
 
 img {
-  width: 3rem;
+  width: 4rem;
   object-fit: contain;
   border-radius: 50%;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);

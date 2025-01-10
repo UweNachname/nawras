@@ -10,6 +10,7 @@ import { KontaktComponent } from './app/kontakt/kontakt.component';
 import { LeistungsangeboteComponent } from './app/leistungsangebote/leistungsangebote.component';
 import { SprechzeitenComponent } from './app/sprechzeiten/sprechzeiten.component';
 import { ImpressumComponent } from './app/impressum/impressum.component';
+import { TeamComponent } from './app/team/team.component';
 
 
 bootstrapApplication(AppComponent, {
@@ -45,6 +46,10 @@ bootstrapApplication(AppComponent, {
         {
             path: 'datenschutzerklaerung',
             component: DatenschutzerklaerungComponent
-        }
+        },
+        {
+            path: 'team',
+            component: TeamComponent
+        },
     ])]
 }).catch((err) => console.error(err));
